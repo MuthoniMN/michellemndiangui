@@ -10,7 +10,7 @@ export default function Hero(){
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">Michelle Ndiangui</h1>
                   <h2 className="text-xl font-medium text-muted-foreground">Software Engineer</h2>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    I'm a passionate software engineer with a strong background in full-stack web development. I love
+                    I am a passionate software engineer with a strong background in full-stack web development. I love
                     building innovative and user-friendly applications that solve real-world problems.
                   </p>
                 </div>
