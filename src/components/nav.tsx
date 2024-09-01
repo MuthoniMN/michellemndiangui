@@ -18,18 +18,11 @@ export default function Navbar(){
           <Link href="#skills" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             Skills
           </Link>
-          <Link href="#work" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Experience
-          </Link>
-          <Link href="#education" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Education
-          </Link>
           <Button>
             <Link href="#contact">
               Contact Michelle
             </Link>
           </Button>
-
         </nav>
       </header>
 
