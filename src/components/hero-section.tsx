@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Button } from "./ui/button"
 
 export default function Hero(){
   return (
@@ -14,20 +15,22 @@ export default function Hero(){
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                    prefetch={false}
-                  >
-                    View Resume
-                  </Link>
-                  <Link
-                    href="#contact"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                    prefetch={false}
-                  >
-                    Contact Me
-                  </Link>
+                <Button>
+                    <Link
+                      href="#"
+                      prefetch={false}
+                    >
+                      View Resume
+                    </Link>
+                  </Button>
+                  <Button variant="outline">
+                    <Link
+                      href="#contact"
+                      prefetch={false}
+                    >
+                      Contact Me
+                    </Link>
+                  </Button>
                 </div>
               </div>
           </div>
